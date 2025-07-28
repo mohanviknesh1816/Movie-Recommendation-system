@@ -25,15 +25,9 @@ The data was cleaned and preprocessed to remove null values and ensure consisten
 - NumPy
 - Scikit-learn
 - Difflib
-## UI Design
 
-The project includes a simple web interface built using Streamlit. Users can input a movie name, and the system will return the top 5 similar movies.
 
-To launch the app:
-```bash
-streamlit run app.py
-
-##**  Methodology**
+## Methodology**
 1. **Data Preprocessing:** Load and clean movie data.
 2. **Feature Extraction:** Use `TfidfVectorizer` to convert text (genres, tags, etc.) into numerical vectors.
 3. **Similarity Calculation:** Apply `cosine_similarity` to compute similarity scores between movie vectors.
@@ -43,4 +37,11 @@ streamlit run app.py
 ## How to Run
 1. Clone the repository or download the notebook.
 2. Install dependencies:
-# Movie-Recommendation-system
+## UI Design
+
+The project includes a simple web interface built using Streamlit. Users can input a movie name, and the system will return the top 5 similar movies.
+
+To launch the app:
+```bash
+streamlit run app.py
+
